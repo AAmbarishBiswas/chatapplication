@@ -24,7 +24,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json()); 
 app.use(cookieParser());
 const corsOption={
-    origin:'http://localhost:3000',
+    origin:'https://chatapplication-g22l.onrender.com',
     credentials:true
 };
 app.use(cors(corsOption)); 
